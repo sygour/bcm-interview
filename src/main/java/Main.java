@@ -9,6 +9,6 @@ class Main {
     String format = args[2];
 
     PowerPlantProductionResource resource = new PowerPlantProductionResource();
-    System.out.println(resource.aggregateProductions(from, to, format));;
+    System.out.println(resource.aggregateProductions(from, to, format));
   }
 }
