@@ -13,7 +13,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-class HawesPowerPlant {
+public class HawesPowerPlant {
   private final ObjectMapper jsonMapper;
   private final DateTimeFormatter formatter;
 
