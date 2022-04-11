@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-record PowerPlantProductionList(List<PowerPlantProduction> productions) {
-  PowerPlantProductionList(List<PowerPlantProduction> productions) {
+public record PowerPlantProductionList(List<PowerPlantProduction> productions) {
+  public PowerPlantProductionList(List<PowerPlantProduction> productions) {
     this.productions = new ArrayList<>();
     if (productions != null && !productions.isEmpty()) {
       Iterator<PowerPlantProduction> iterator = productions.iterator();
